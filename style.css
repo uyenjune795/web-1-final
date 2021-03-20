@@ -1,0 +1,419 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato:wght@400;700&family=Roboto&family=Roboto+Mono&display=swap);
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background: #A66151;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.personal-logo {
+  max-width: 6vw; 
+  padding-top: 2vw;
+  padding-bottom: 3vw;
+}
+
+#home-menu > div > a {
+  padding: 1em;
+  color: #8C3A32;
+  font-family: Lato, sans serif;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#home-menu > div > a:hover {
+  color: #F2A7A0; 
+}
+
+nav > p {
+  font-family: Dancing Script;
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: #F2A7A0;
+}
+
+.intro {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F2D4C2;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 4.4vw;
+  line-height: 6.5vw;
+  color: #BF7C63;
+  text-align: center;
+  order: -1;
+}
+
+.intro-bar > .intro-type > h2 > a {
+  color: #8C3A32;
+  text-decoration: none;
+}
+
+.intro-bar > .intro-type > h2 > a:hover {
+  color: #F2A7A0;
+}
+
+.profile-picture {
+  height: 30vw;
+  padding-bottom: 1.8vw;
+}
+
+.intro {
+  color: #BF7C63;
+  font-family: Roboto;
+  font-size: 1.6vw;
+  line-height: 2.2vw;
+  max-width: 50%;
+  text-align: center;
+}
+
+#services-offer {
+  background: #F2A7A0;
+  display: flex;
+  flex-direction: column;
+  color: #A66151;
+  align-items: center;
+}
+
+h3 {
+  font-family: Lato;
+  font-size: 3vw;
+  font-weight: 700;
+  color: #8C3A32;
+  padding-top: 4vw;
+  margin-bottom: 1.2vw;
+}
+
+#services-offer > p {
+  max-width: 50%;
+  text-align: center;
+  padding-bottom: 5vw;
+  font-size: 1.4vw;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 1.4vw;
+  line-height: 3vw;
+  letter-spacing: .5px;
+}
+
+#portfolio-profile {
+  display: flex;
+  flex-direction: column;
+  background: #F2D4C2;
+  padding-bottom: 12vw;
+}
+
+#portfolio-profile > .thermostat {
+  padding-top: 8em;
+}
+
+#portfolio-profile > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vw;
+  padding-top: 2vw;
+}
+
+#portfolio-profile > div > .p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 10vw;
+}
+
+#portfolio-profile > div > img {
+  max-width: 40vw;
+  max-height: 60vw;
+}
+
+h1 {
+  background: #8C3A32;
+  padding: 5vw;
+  margin: 0;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 5vw;
+  color: #F2D4C2;
+}
+
+#portfolio-profile > div > .p2 > p {
+  color: #BF7C63;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  font-size: 1.4vw;
+}
+
+h4 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 2.2vw;
+  color: #8C3A32;
+  margin-top: 0;
+  margin-bottom: 0vw; 
+}
+
+#portfolio-profile > div > .p2 > a {
+  background-color: #F2A7A0;
+  font-size: 1.7vw;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  border-radius: 1vw;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  font-family: Roboto, sans serif;
+  font-weight: 600;
+  color: #8C3A32;
+  text-align: center;
+  text-decoration: none;
+}
+
+#portfolio-profile > div > .p2 > a:hover {
+  color: #F2D4C2;
+}
+  
+#more-about-me {
+  display: flex;
+  flex-direction: column;
+  background: #F2A7A0;
+  align-items: center;
+  padding-bottom: 6vw;
+}
+
+#more-about-me > p {
+  text-align: center;
+  max-width: 50%;
+  color: #A66151;
+}
+
+#contact-me {
+  background: #BF7C63;
+  text-align: center;
+  padding-bottom: 6vw;
+}
+
+#contact-me > h3 {
+  color: #F2D4C2;
+}
+
+#contact-me > p {
+  color: #8C3A32;
+}
+
+#contact-me > p > a {
+  color: #F2D4C2;
+}
+
+#contact-me > p > a:hover {
+  color: #F2A7A0;
+}
+
+footer {
+  background: #8C3A32;
+  padding: .1vw;
+  color: #F2A7A0;
+  text-align: center;
+}
+
+footer > p {
+  font-size: 1.2vw;
+} 
+
+/*hasn't worked*/
+@media (min-width: 600px) {
+  header {
+  background: -webkit-linear-gradient(-64deg, #A66151 47%, #F2D4C2 0%);
+}
+  p {
+    font-size: 22px;
+    line-height: 2em;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .intro-bar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vw;
+    padding-bottom: 8vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .profile-picture {
+    order: -1;
+    padding-left: 10vw;
+  }
+}
+  
+@media (min-width: 1000px) {
+  h2 {
+    text-align: left;
+    margin-left: 12vw;
+    margin-top: 0;
+    margin-bottom: 0.5vw;
+  }
+  .intro {
+    text-align: left;
+    margin-top: 3vw;
+    margin-left: 12vw;
+    width: 65vw;
+    line-height: 3vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  #portfolio-profile > div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10vw;
+    padding-right: 8vw;
+  }
+  
+  #portfolio-profile > div > img {
+    width: 60vw;
+  }   
+}
+
+@media (min-width: 1000px) {
+  #portfolio-profile > div > .p2 > p {
+    text-align: left;
+  }
+  
+  #portfolio-profile > div > .p2 {
+    align-items: flex-start;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  #portfolio-profile > .interactive-web-design > img {
+    order: 1;
+  }
+  
+  #portfolio-profile > .postcard > img {
+    order: 1;
+  }
+  
+  #portfolio-profile > .info-cards > img {
+    order: 1;
+  }
+}
+
+/*
+
+nav {
+  padding: 70px 150px 10px 150px;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+.part1 {
+  padding: 10px 0px; 
+}
+
+.part1 > h4 {
+  line-height: 2px;
+}
+
+.part2 > h4 {
+  line-height: 2px;
+}
+
+.part1 > img {
+  max-width: 600px;
+  max-height: 800px;
+  padding: 2px 100px 2px 0px;
+}
+
+.part2 > img {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 2px 0px 2px 100px;
+}
+
+.thermostat > .part2 > img {
+  width: 400px;
+  border-radius: 80px;
+}
+
+.interactive-web-design > .part2 {
+  padding: 100px 0px 0px 30px;
+}
+
+#more-about-me {
+  background: #F2A7A0;
+  padding: 50px 600px 100px;
+  text-align: center;
+}
+
+
+
+#contact-me {
+  background: #BF7C63;
+  padding: 50px 400px 80px;
+  text-align: center;
+}
+
+#contact-me > h3 {
+  color: #F2D4C2;
+}
+#contact-me > p {
+  color: #8C3A32;
+  line-height: 25px;
+}
+
+a {
+  color: #F2D4C2;
+}
+
+footer {
+  background: #8C3A32;
+  padding: 1px;
+  color: #F2A7A0;
+  text-align: center;
+}
+
+footer> p {
+  font-size: 20px;
+} 
+*/
+
